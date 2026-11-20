@@ -29,10 +29,11 @@ struct Card
 
 struct Deck
 {
-	Card* cards = nullptr;
 	int topCardIndex = -1;
+	Card* cards = nullptr;
+	
 
-	Deck(Card* localCards, int topIndex) : cards(localCards), topCardIndex(topIndex) {}
+	Deck(int topIndex, Card* localCards) : topCardIndex(topIndex), cards(localCards) {}
 };
 
 void Shuffle(Deck& deck);

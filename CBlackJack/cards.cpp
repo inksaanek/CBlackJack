@@ -11,7 +11,7 @@ void Shuffle(Deck& deck)
 	std::mt19937 gen(rand());
 
 	std::vector<Card> localCards;
-	localCards.reserve(deck.topCardIndex + 1);
+	localCards.reserve(static_cast<size_t>(deck.topCardIndex + 1));
 
 	for (int i = 0; i <= deck.topCardIndex; i++)
 	{
@@ -24,10 +24,11 @@ void Shuffle(Deck& deck)
 
 Card* GetRandomCards(Deck& deck, Card *cards, int cardsCount, int neededAmount)
 {
+	if (cards == NULL || cardsCount <= 0 || neededAmount <= 0 || neededAmount > cardsCount) { return NULL; }
 	std::random_device rand;
 	std::mt19937 gen(rand());
 
-	int* randomValues = new int[cardsCount];
+	int* randomValues = new int[static_cast<size_t>(cardsCount)];
 	for (int i = 0; i < cardsCount; i++) { randomValues[i] = i; }
 	shuffle(randomValues, randomValues + cardsCount, gen);
 
@@ -49,7 +50,7 @@ Card* GetRandomCards(Deck& deck, Card *cards, int cardsCount, int neededAmount)
 		}
 	}
 
-	Card* temp = (Card*)realloc(cards, sizeof(Card) * (cardsCount - neededAmount));
+	Card* temp = (Card*)realloc(cards, sizeof(Card) * static_cast<size_t>(cardsCount - neededAmount));
 	if (temp == NULL)
 	{
 		free(cardSelection);
@@ -75,10 +76,10 @@ int GetPointSum(const Card* cards, int cardsCount)
 
 void PrintStats(const Card& card)
 {
-	std::cout << "Type: " << card.cardType << "\nRank: " << card.cardRank << "Points: " << card.points << std::endl;
+	std::cout << "Type: " << card.cardType << "\nRank: " << card.cardRank << "\nPoints: " << card.points << std::endl;
 }
 
 void PrintStats(const Card* card)
 {
-	std::cout << "Type: " << card->cardType << "\nRank: " << card->cardRank << "Points: " << card->points << std::endl;
+	std::cout << "Type: " << card->cardType << "\nRank: " << card->cardRank << "\nPoints: " << card->points << std::endl;
 }

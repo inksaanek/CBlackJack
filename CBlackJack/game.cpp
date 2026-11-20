@@ -39,7 +39,7 @@ bool PlayerChoose(Player& player, Deck& deck, int& choice)
 		return false;
 	}
 
-	Card* localCards = GetRandomCards(deck, deck.cards, deck.topCardIndex + 1, 2);
+	Card* localCards = GetRandomCards(deck, deck.cards, deck.topCardIndex + 1, GIVE_AMOUNT);
 	if (localCards == NULL)
 	{
 		return false;
@@ -76,7 +76,7 @@ bool DealerChoose(Player& dealer, Deck& deck, int& choice)
 RoundResult Cycle(Deck& deck, Player& player, Player& dealer)
 {
 	
-	Card* playerCardSelection = GetRandomCards(deck, deck.cards, deck.topCardIndex + 1, GIVE_AMOUNT);
+	Card* playerCardSelection = GetRandomCards(deck, deck.cards, deck.topCardIndex + 1, START_GIVE_AMOUNT);
 	if (playerCardSelection == NULL)
 	{
 		
@@ -85,16 +85,17 @@ RoundResult Cycle(Deck& deck, Player& player, Player& dealer)
 		return r;
 	}
 
-	Card* dealerCardSelection = GetRandomCards(deck, deck.cards, deck.topCardIndex + 1, GIVE_AMOUNT);
+	Card* dealerCardSelection = GetRandomCards(deck, deck.cards, deck.topCardIndex + 1, START_GIVE_AMOUNT);
 	if (dealerCardSelection == NULL)
 	{
 		std::cout << "malloc failed" << std::endl;
+		free(playerCardSelection);
 		RoundResult r{};
 		return r;
 	}
 
 
-	if (!GiveCards(player, playerCardSelection, GIVE_AMOUNT) || !GiveCards(dealer, dealerCardSelection, GIVE_AMOUNT))
+	if (!GiveCards(player, playerCardSelection, START_GIVE_AMOUNT) || !GiveCards(dealer, dealerCardSelection, START_GIVE_AMOUNT))
 	{
 		free(playerCardSelection);
 		free(dealerCardSelection);
@@ -120,7 +121,9 @@ RoundResult Cycle(Deck& deck, Player& player, Player& dealer)
 
 	while (true)
 	{
-		if (PlayerChoose(player, deck, playerChoice)) { continue; }
+		if (!PlayerChoose(player, deck, playerChoice)) { continue; }
+		if (playerChoice == Actions::Stand) { break; }
+		if (playerChoice == Actions::Hit && CheckIfPointsOverflow(player.pointsCount)) { break; }
 	}
 
 	if (!DealerChoose(dealer, deck, dealerChoice))
@@ -143,19 +146,19 @@ int PrintRoundResults(Player& player, Player& dealer, RoundResult roundResult)
 {
 	static int roundCounter = 0;
 	roundCounter++;
-	std::cout << "round " << roundCounter << " results:" << std::endl;
+	std::cout << "\nround " << roundCounter << " results:" << std::endl;
 
 	PrintStats(player);
 	PrintStats(dealer);
 
-	if (roundResult.playerLoss && roundResult.dealerLoss) { std::cout << "Both lost! bruh" << std::endl; }
-	else if (roundResult.playerLoss) { std::cout << "You lose!" << std::endl; }
-	else if (roundResult.dealerLoss) { std::cout << "Dealer lose!" << std::endl; }
-	else if (roundResult.playerBlackjack && roundResult.dealerBlackjack) { std::cout << "Both got blackjack. Tie!" << std::endl; }
-	else if (roundResult.playerBlackjack) { std::cout << "You got blackjack! You win!" << std::endl; }
-	else if (roundResult.dealerBlackjack) { std::cout << "Dealer got blackjack! You lose!" << std::endl; }
-	else if (player.pointsCount > dealer.pointsCount) { std::cout << "You got more points! You win!" << std::endl; }
-	else if (player.pointsCount < dealer.pointsCount) { std::cout << "Dealer got more points! You lose!" << std::endl; }
-	else { { std::cout << "Both got the same amount of points! Tie!" << std::endl; } }
+	if (roundResult.playerLoss && roundResult.dealerLoss) { std::cout << "\nBoth lost! bruh" << std::endl; }
+	else if (roundResult.playerLoss) { std::cout << "\nYou lose!" << std::endl; }
+	else if (roundResult.dealerLoss) { std::cout << "\nYou win!" << std::endl; }
+	else if (roundResult.playerBlackjack && roundResult.dealerBlackjack) { std::cout << "\nBoth got blackjack. Tie!" << std::endl; }
+	else if (roundResult.playerBlackjack) { std::cout << "\nYou got blackjack! You win!" << std::endl; }
+	else if (roundResult.dealerBlackjack) { std::cout << "\nDealer got blackjack! You lose!" << std::endl; }
+	else if (player.pointsCount > dealer.pointsCount) { std::cout << "\nYou got more points! You win!" << std::endl; }
+	else if (player.pointsCount < dealer.pointsCount) { std::cout << "\nDealer got more points! You lose!" << std::endl; }
+	else { { std::cout << "\nBoth got the same amount of points! Tie!" << std::endl; } }
 	return roundCounter;
 }

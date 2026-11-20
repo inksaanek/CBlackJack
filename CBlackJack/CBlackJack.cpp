@@ -37,7 +37,7 @@ int main()
 			c++;
 		}
 	}
-	Deck deck(deckCards, c - 1);
+	Deck deck(c - 1, deckCards);
 	
 
 	char playerName[MAX_NAME_LENGTH] = "";
@@ -52,7 +52,7 @@ int main()
 		return 1;
 	}
 	strncpy_s(playerName, buffer, MAX_NAME_LENGTH);
-
+	cout << endl;
 	
 	Player player(playerName, playerCards, 0, 0);
 	Player dealer(dealerName, dealerCards, 0, 0);
@@ -61,21 +61,21 @@ int main()
 	int lastResult = 0;
 	do
 	{
-		int playerCardsCount = 0;
-		int playerPointsCount = 0;
-		int dealerCardsCount = 0;
-		int dealerPointsCount = 0;
+		player.cardsCount = 0;
+		player.pointsCount = 0;
+		dealer.cardsCount = 0;
+		dealer.pointsCount = 0;
 
 		if (deck.topCardIndex < 10) {
 			c = 0;
 			for (int t = 0; t < 4; t++)
 			{
 				CardType cardType = static_cast<CardType>(t);
-				for (int r = 6; r <= 14; r++) // 14 - это Ace
+				for (int r = 6; r <= 14; r++)
 				{
 					int points = 0;
-					if (r >= 10 && r <= 13) { points = 10; } // Jack(11), Queen(12), King(13)
-					else if (r == 14) { points = 11; } // Ace
+					if (r >= 10 && r <= 13) { points = 10; }
+					else if (r == 14) { points = 11; }
 					else { points = r; }
 
 					CardRank cardRank = static_cast<CardRank>(r);

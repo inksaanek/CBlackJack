@@ -8,5 +8,6 @@ extern const int HIT;
 extern const int MAX_CARDS;
 
 extern const int GIVE_AMOUNT;
+extern const int START_GIVE_AMOUNT;
 
 #endif // !GLOBALS_H_

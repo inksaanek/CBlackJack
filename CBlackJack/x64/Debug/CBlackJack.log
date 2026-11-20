@@ -1,0 +1,82 @@
+﻿  cards.cpp
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.h(33,6): warning C4820: "Deck": отбивка размером "4" байт добавлена после данные-член "Deck::topCardIndex"
+  (компиляция исходного файла "cards.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(14,39): warning C4365: аргумент: преобразование "int" в "unsigned __int64", несоответствие типов со знаком и без
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(30,30): warning C4365: инициализация: преобразование "int" в "size_t", несоответствие типов со знаком и без
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.h(27,2): warning C4514: Card::Card: подставляемая функция, не используемая в ссылках, была удалена
+  (компиляция исходного файла "cards.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.h(35,2): warning C4514: Deck::Deck: подставляемая функция, не используемая в ссылках, была удалена
+  (компиляция исходного файла "cards.cpp")
+  
+  CBlackJack.cpp
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.h(33,6): warning C4820: "Deck": отбивка размером "4" байт добавлена после данные-член "Deck::topCardIndex"
+  (компиляция исходного файла "CBlackJack.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\player.h(10,7): warning C4820: "Player": отбивка размером "7" байт добавлена после данные-член "Player::name"
+  (компиляция исходного файла "CBlackJack.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\CBlackJack.cpp(66,7): warning C4189: dealerCardsCount: локальная переменная инициализирована, но не использована
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\CBlackJack.cpp(64,7): warning C4189: playerCardsCount: локальная переменная инициализирована, но не использована
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\CBlackJack.cpp(65,7): warning C4189: playerPointsCount: локальная переменная инициализирована, но не использована
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\CBlackJack.cpp(67,7): warning C4189: dealerPointsCount: локальная переменная инициализирована, но не использована
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\player.h(21,13): warning C4514: CheckIfPointsOverflow: подставляемая функция, не используемая в ссылках, была удалена
+  (компиляция исходного файла "CBlackJack.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\player.h(26,13): warning C4514: CheckIfDealerCanHit: подставляемая функция, не используемая в ссылках, была удалена
+  (компиляция исходного файла "CBlackJack.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\player.h(31,13): warning C4514: CheckIfBlackjack: подставляемая функция, не используемая в ссылках, была удалена
+  (компиляция исходного файла "CBlackJack.cpp")
+  
+  game.cpp
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.h(33,6): warning C4820: "Deck": отбивка размером "4" байт добавлена после данные-член "Deck::topCardIndex"
+  (компиляция исходного файла "game.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\player.h(10,7): warning C4820: "Player": отбивка размером "7" байт добавлена после данные-член "Player::name"
+  (компиляция исходного файла "game.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.h(27,2): warning C4514: Card::Card: подставляемая функция, не используемая в ссылках, была удалена
+  (компиляция исходного файла "game.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.h(35,2): warning C4514: Deck::Deck: подставляемая функция, не используемая в ссылках, была удалена
+  (компиляция исходного файла "game.cpp")
+  
+  globals.cpp
+  player.cpp
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.h(33,6): warning C4820: "Deck": отбивка размером "4" байт добавлена после данные-член "Deck::topCardIndex"
+  (компиляция исходного файла "player.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\player.h(10,7): warning C4820: "Player": отбивка размером "7" байт добавлена после данные-член "Player::name"
+  (компиляция исходного файла "player.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.h(27,2): warning C4514: Card::Card: подставляемая функция, не используемая в ссылках, была удалена
+  (компиляция исходного файла "player.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.h(35,2): warning C4514: Deck::Deck: подставляемая функция, не используемая в ссылках, была удалена
+  (компиляция исходного файла "player.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\player.h(21,13): warning C4514: CheckIfPointsOverflow: подставляемая функция, не используемая в ссылках, была удалена
+  (компиляция исходного файла "player.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\player.h(26,13): warning C4514: CheckIfDealerCanHit: подставляемая функция, не используемая в ссылках, была удалена
+  (компиляция исходного файла "player.cpp")
+  
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\player.h(31,13): warning C4514: CheckIfBlackjack: подставляемая функция, не используемая в ссылках, была удалена
+  (компиляция исходного файла "player.cpp")
+  
+  Создание кода...
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\game.cpp(118,1): warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\game.cpp(118,1): warning C5045: C:\Users\sanek\source\repos\CBlackJack\CBlackJack\game.cpp(116) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\game.cpp(118,1): warning C5045: C:\Users\sanek\source\repos\CBlackJack\CBlackJack\game.cpp(118) : Примечание. Вызов веб-каналов в этой строке
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(18,1): warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(18,1): warning C5045: C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(16) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(18,1): warning C5045: C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(18) : Примечание. Вызов веб-каналов в этой строке
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(45,1): warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(45,1): warning C5045: C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(43) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(45,1): warning C5045: C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(48) : Примечание. Загрузка памяти веб-каналов в этой строке
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(41,1): warning C5045: Компилятор вставит компонент устранения рисков Spectre для загрузки памяти, если указан параметр /Qspectre
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(41,1): warning C5045: C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(41) : Примечание. Диапазон индекса "i", проверенный путем сравнения, в этой строке
+C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(41,1): warning C5045: C:\Users\sanek\source\repos\CBlackJack\CBlackJack\cards.cpp(41) : Примечание. Загрузка памяти веб-каналов в этой строке
+  CBlackJack.vcxproj -> C:\Users\sanek\source\repos\CBlackJack\x64\Debug\CBlackJack.exe

@@ -3,9 +3,7 @@
 #include <iostream>
 #include <cstring>
 
-Player::Player(char n[MAX_NAME_LENGTH], Card* localCards,
-	int cardCount, int pointCount)
-	: cards(localCards), cardsCount(cardCount), pointsCount(pointCount)
+Player::Player(Card* localCards, int cardCount, int pointCount, char n[MAX_NAME_LENGTH]) : cards(localCards), cardsCount(cardCount), pointsCount(pointCount)
 {
 	strncpy_s(name, n, MAX_NAME_LENGTH);
 	name[MAX_NAME_LENGTH - 1] = '\0';

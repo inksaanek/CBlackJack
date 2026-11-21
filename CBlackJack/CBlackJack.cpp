@@ -41,7 +41,7 @@ int main()
 	
 
 	char playerName[MAX_NAME_LENGTH] = "";
-	char dealerName[MAX_NAME_LENGTH] = "Algorithm";
+	char dealerName[MAX_NAME_LENGTH] = "Dealer";
 	char buffer[MAX_NAME_LENGTH];
 	cout << "Enter yo name: ";
 	cin.getline(buffer, MAX_NAME_LENGTH);
@@ -54,8 +54,8 @@ int main()
 	strncpy_s(playerName, buffer, MAX_NAME_LENGTH);
 	cout << endl;
 	
-	Player player(playerName, playerCards, 0, 0);
-	Player dealer(dealerName, dealerCards, 0, 0);
+	Player player(playerCards, 0, 0, playerName);
+	Player dealer(dealerCards, 0, 0, dealerName);
 	Shuffle(deck);
 
 	int lastResult = 0;

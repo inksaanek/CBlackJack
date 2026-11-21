@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|solutionrelative:CBlackJack\\cards.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\CBlackJack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|solutionrelative:CBlackJack\\CBlackJack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|solutionrelative:CBlackJack\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\CBlackJack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|solutionrelative:CBlackJack\\CBlackJack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\globals.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -21,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|solutionrelative:CBlackJack\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|solutionrelative:CBlackJack\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\cards.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|solutionrelative:CBlackJack\\cards.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FAC443B-DF1A-4AAD-84C8-27B29A3E861B}|CBlackJack\\CBlackJack.vcxproj|solutionrelative:CBlackJack\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,15 +62,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "player.cpp",
               "DocumentMoniker": "C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\player.cpp",
               "RelativeDocumentMoniker": "CBlackJack\\player.cpp",
               "ToolTip": "C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\player.cpp",
               "RelativeToolTip": "CBlackJack\\player.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-11-14T07:18:52.937Z"
+              "WhenOpened": "2026-11-14T07:18:52.937Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -87,13 +88,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "game.cpp",
               "DocumentMoniker": "C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\game.cpp",
               "RelativeDocumentMoniker": "CBlackJack\\game.cpp",
               "ToolTip": "C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\game.cpp",
               "RelativeToolTip": "CBlackJack\\game.cpp",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAFsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-11-14T07:18:37.443Z",
               "EditorCaption": ""
@@ -106,14 +107,14 @@
               "RelativeDocumentMoniker": "CBlackJack\\cards.cpp",
               "ToolTip": "C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\cards.cpp",
               "RelativeToolTip": "CBlackJack\\cards.cpp",
-              "ViewState": "AgIAAAcAAAAAAAAAAAASwB4AAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-11-14T07:18:30.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "game.h",
               "DocumentMoniker": "C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\game.h",
               "RelativeDocumentMoniker": "CBlackJack\\game.h",
@@ -121,12 +122,11 @@
               "RelativeToolTip": "CBlackJack\\game.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-11-14T07:06:35.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-14T07:06:35.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "globals.h",
               "DocumentMoniker": "C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\globals.h",
               "RelativeDocumentMoniker": "CBlackJack\\globals.h",
@@ -145,14 +145,14 @@
               "RelativeDocumentMoniker": "CBlackJack\\player.h",
               "ToolTip": "C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\player.h",
               "RelativeToolTip": "CBlackJack\\player.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-11-14T06:50:32.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "cards.h",
               "DocumentMoniker": "C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\cards.h",
               "RelativeDocumentMoniker": "CBlackJack\\cards.h",
@@ -160,18 +160,17 @@
               "RelativeToolTip": "CBlackJack\\cards.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-11-14T06:50:04.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-14T06:50:04.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CBlackJack.cpp",
               "DocumentMoniker": "C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\CBlackJack.cpp",
               "RelativeDocumentMoniker": "CBlackJack\\CBlackJack.cpp",
               "ToolTip": "C:\\Users\\sanek\\source\\repos\\CBlackJack\\CBlackJack\\CBlackJack.cpp",
               "RelativeToolTip": "CBlackJack\\CBlackJack.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-11-11T11:11:46.247Z",
               "EditorCaption": ""

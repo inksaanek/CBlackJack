@@ -126,6 +126,13 @@ RoundResult Cycle(Deck& deck, Player& player, Player& dealer)
 		if (playerChoice == Actions::Hit && CheckIfPointsOverflow(player.pointsCount)) { break; }
 	}
 
+	if (CheckIfPointsOverflow(player.pointsCount))
+	{
+		RoundResult r{};
+		r.playerLoss = true;
+		return r;
+	}
+
 	if (!DealerChoose(dealer, deck, dealerChoice))
 	{
 		std::cout << "malloc failed" << std::endl;
@@ -151,7 +158,7 @@ int PrintRoundResults(Player& player, Player& dealer, RoundResult roundResult)
 	PrintStats(player);
 	PrintStats(dealer);
 
-	if (roundResult.playerLoss && roundResult.dealerLoss) { std::cout << "\nBoth lost! bruh" << std::endl; }
+	if (roundResult.playerLoss && roundResult.dealerLoss) { std::cout << "\nBoth got blackjack! Tie!" << std::endl; }
 	else if (roundResult.playerLoss) { std::cout << "\nYou lose!" << std::endl; }
 	else if (roundResult.dealerLoss) { std::cout << "\nYou win!" << std::endl; }
 	else if (roundResult.playerBlackjack && roundResult.dealerBlackjack) { std::cout << "\nBoth got blackjack. Tie!" << std::endl; }

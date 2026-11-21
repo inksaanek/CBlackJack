@@ -7,12 +7,12 @@
 
 struct Player
 {
-	char name[MAX_NAME_LENGTH]{};
 	Card* cards = nullptr;
 	int cardsCount = 0;
 	int pointsCount = 0;
+	char name[MAX_NAME_LENGTH]{};
 
-	Player(char n[MAX_NAME_LENGTH], Card* localCards, int cardCount, int pointCount);
+	Player(Card* localCards, int cardCount, int pointCount, char n[MAX_NAME_LENGTH]);
 
 };
 
